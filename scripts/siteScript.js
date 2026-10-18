@@ -1,11 +1,9 @@
-document.getElementById("defaultOpen").click();
-
 document.addEventListener("DOMContentLoaded", () => {
- resetTabs();
+	resetTabs();
 });
 
 function openTab(evt, tabName) {
-  var i, tabcontent, tablinks;
+	var i, tabcontent, tablinks;
 
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -22,10 +20,10 @@ function openTab(evt, tabName) {
 }
 
 function resetTabs() {
- const contents = document.querySelectorAll(".tabcontent");
- contents.forEach(content => {
-  if (!content.classList.contains("active")) {
-   content.style.display = "none";
-   }
-  });
+  const contents = document.querySelectorAll(".tabcontent");
+	contents.forEach(content => {
+		if (!content.classList.contains("active")) {
+			content.style.display = "none";
+		}});
+	document.getElementById("defaultOpen").click();
 }
