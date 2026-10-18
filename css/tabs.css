@@ -25,6 +25,11 @@
   background-color: #ccc;
 }
 
+button:focus{
+  background-color: #b30033;
+  border-color: #b30033;
+}
+
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
   from {opacity: 0;}
