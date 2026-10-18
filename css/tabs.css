@@ -1,4 +1,4 @@
-.tab {
+3.tab {
   overflow: hidden;
   background-color: #f1f1f1;
 }
@@ -17,7 +17,7 @@
   background-color: #ccc;
 }
 
-.tabcontent {l
+.tabcontent {
   animation: fadeEffect 1s;
 }
 
