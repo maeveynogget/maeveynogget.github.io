@@ -1,5 +1,6 @@
 .tab {
   overflow: hidden;
+  background-color: inherit;
 }
 
 .tab button {
