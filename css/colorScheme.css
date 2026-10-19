@@ -18,7 +18,8 @@ card {
   border: 1px solid var(--border-color);
 }
 
-button {
+button,
+.button {
   color: var(--text-secondary);
 }
 
