@@ -1,0 +1,27 @@
+:root {
+  --bg-primary: #120b0d;
+  --bg-surface: #242021;
+  --text-primary: #faf7f8;
+  --text-secondary: #a1818a;
+  --border-color:#331f24;
+  --accent-color: #e8386a;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+card {
+  background-color: var(--bg-surface);
+  border: 1px solid var(--border-color);
+}
+
+html {
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
