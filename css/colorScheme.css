@@ -18,6 +18,10 @@ card {
   border: 1px solid var(--border-color);
 }
 
+button {
+  color: var(--text-secondary);
+}
+
 html {
   color-scheme: dark;
 }
